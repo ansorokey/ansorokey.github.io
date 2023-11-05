@@ -11201,3 +11201,7 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+a.project-link {
+  text-decoration: none;
+}
