@@ -11207,3 +11207,8 @@ body {
 a.project-link {
   text-decoration: none;
 }
+
+h3 {
+  display: block;
+  text-align: center;
+}
