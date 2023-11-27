@@ -609,9 +609,9 @@ progress {
   /* transition: all 3s; */
 }
 
-.img-fluid:hover {
+/* .img-fluid:hover {
   object-fit: scale-down;
-}
+} */
 
 .img-thumbnail {
   padding: 0.25rem;
