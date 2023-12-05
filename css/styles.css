@@ -11130,10 +11130,25 @@ body {
 .projects-section {
   padding: 10rem 0;
 }
+
 .projects-section .featured-text {
   background: rgba(0, 0, 0, 0.05);
   padding: 2rem;
 }
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  row-gap: 20px;
+  font-size: 32px;
+}
+
+.logos i {
+  font-size: 32px;
+}
+
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
