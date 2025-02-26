@@ -9,6 +9,7 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
+    
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
@@ -25,10 +26,10 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Shrink the navbar 
     navbarShrink();
-
+    
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
-
+    
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
@@ -51,4 +52,12 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // My stuff is broke :(
+    window.alert(`
+Hello, guest.
+This site is currently under construction. 
+The links to some of my projects may not all work properly. 
+Please bear with me as I transition to hosting all projects on a home-built server. 
+
+Thank you for visiting!`)
 });
